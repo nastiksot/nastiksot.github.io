@@ -25,7 +25,6 @@ footer{
 	}
 
 .container {
-
   background-color: #009999;
   overflow: hidden; 
 }
@@ -42,7 +41,7 @@ header a:link, header a:visited, footer a:link, footer a:visited {
 }
 
 header h1 {
-  position: relative;
+  
   padding-left: 20px;
   text-shadow: 2px 0 2px #000; 
   color: #eee; 
@@ -209,7 +208,7 @@ footer {
 
 
 @media only screen and (min-width: 600px) {
-  /* para tablets: */
+  /* for tablets: */
     .col-1 {width: 30%;}
     .col-2 {width: 70%;}
     .col-3 {width: 100%;} 
@@ -220,7 +219,7 @@ footer {
 }
 
 @media only screen and (min-width: 1000px) {
-    /* para desktop: */
+    /* for desktop: */
     .col-1 {width: 20%;}
     .col-2 {width: 60%;}
     .col-3 {width: 20%;}
@@ -234,7 +233,7 @@ footer {
     }   
         
     .menu-options ul li{
-        display: inline; /* menu superior se torna horizontal */
+        display: inline; /* top menu becomes horizontal */
     }   
 
 }  
@@ -328,5 +327,4 @@ tr:nth-child(odd) {
 li
 {
     list-style-image: url(../img/icon.png);
- 
 }
