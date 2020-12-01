@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Sport Rent</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="shortcut icon" href="../img/icon.png" type="image/png">
+</head>
+
+<body>
+	<!--header-->
+	<header>
+		<h1>Sport Rent</h1>
+		<div id="menu-login">
+			<span id="login">Hello, visitor (<a href="#">login</a>)</span>
+			<span id="cart"><a href="cart.html">My cart <span id="ItemsCart"></span><img src="../img/cart.png" width="32" alt="shopping cart"></a></span>			
+		</div>
+		<nav class="menu-options">    
+		<div class="topnav">
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a class="active" href="contact.html">Contact</a></li>
+				<li><a href="about.html">About us</a></li>
+			</ul>
+		</div>
+		</nav>
+	</header>
+	<!-- end header -->
+
+	<!-- central area with 3 columns-->
+	<div class="container">
+		<section class="col-1">
+			<section class="search">
+				<form>
+					<input type="search" placeholder="search..." name="search">
+					<button>OK</button>
+				</form>
+			</section>
+
+			<section class="menu-categories">
+				<h2>Categories</h2>
+				<nav>
+					<ul>
+						<li><a href="#">Cycle</a></li>
+						<li><a href="#">Swimming</a></li>
+						<li><a href="#">Skiing</a></li>
+						<li><a href="#">Boards</a></li>
+						<li><a href="#">Moto</a></li>						
+					</ul>
+				</nav>
+			</section>
+		</section>	
+
+		<section class="col-2">
+			<h2>Contact us</h2>
+			<h2>Write to us if you are looking for sports equipment or if you want to donate your equipment.</h2>
+			<div class="contactForm">
+			
+			<label for="fname">Name</label>
+			<input type="text" id="name" name="name" placeholder="Your name..">
+
+			<label for="lname">Email</label>
+			<input type="text" id="email" name="email" placeholder="Your email..">
+			
+			<label for="lname">Tel</label>
+			<input type="text" id="tel" name="tel" placeholder="Your phone..">
+
+			<label for="country">City</label>
+			<select id="country" name="country">
+			<option value="kiev">Kiev</option>
+			<option value="kharkiv">Kharkiv</option>
+			<option value="dnipro">Dnipro</option>
+			<option value="sumy">Sumy</option>
+			</select>
+
+			<label for="message">Message</label>
+			<textarea id="message" name="message" placeholder="Wanna good mark.." style="height:200px"></textarea>
+			<input type="checkbox" name="option1" value="a1">I agree to the processing of my data<Br>
+			<input type="submit" value="Submit">
+			</div>
+		</section>
+
+		
+		
+		
+
+	
+	<footer><p>Sport Rent - Sotnykova Anastasiia</p>
+	</footer>
+	<!-- footer end -->
+</body>
+</html>
