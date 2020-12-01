@@ -22,17 +22,15 @@ body {
 
 footer{
 	clear: left; /* for flexbox layout, take this line */
-	max-width: 1200px;
 	}
 
 .container {
-  max-width: 1200px;
+
   background-color: #009999;
   overflow: hidden; 
 }
 
 header, footer {
-	max-width: 1200px;
   background-color: #1D7373 ;
   color: #ffffff;               
   padding: 10px;
@@ -280,7 +278,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #6C8CD5;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -290,7 +288,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color:  #5A9999;
 }
 
 /* Add a background color and some padding around the form */
