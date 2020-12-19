@@ -1,4 +1,7 @@
-window.onload=function(){
-let preloader= document.getElementById('preloader');
-preloader.style.display='none';
+window.onload = function () {
+    console.log("ehehhe")
+    let preloader = document.getElementById('preloader');
+    console.log("ohohoho")
+    preloader.style.display = 'none';
+    console.log("ahahah")
 };
