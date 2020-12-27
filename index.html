@@ -7,6 +7,7 @@
     <title>Sport Rent</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/preloader.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/popUpLoginStyle.css">
     <link rel="shortcut icon" href="assets/img/icon.png" type="image/png">
 </head>
 
@@ -282,14 +283,12 @@
             </div>
             <!-- end product -->
 
-            <!-- adicione mais products -->
-
-        </div>    <!-- fim lista products -->
+        </div>
     </section>
 
     <aside class="col-3">
         <h2>More orders</h2>
-        <!-- container de mais pedidos -->
+
         <div class="product-list">
 
             <!-- start product -->
@@ -329,6 +328,7 @@
                     </figure>
                 </a>
             </div>
+
             <!-- end product -->
 
         </div>
@@ -337,8 +337,24 @@
 <!-- end central area -->
 
 <footer><p>Sport Rent - Sotnykova Anastasiia</p>
+    <button class="open-button" onclick="openForm()">Open Form</button>
+    <div class="form-popup" id="myForm">
+        <form class="form-container">
+            <h3>Login</h3>
+
+            <label for="email">  <h3><b>Email</h3></b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><h3><b>Password</h3></b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit" class="btn">Login</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
 </footer>
 <!-- footer end -->
-<script src="assets/js/main.js"></script>
+<script src="assets/js/preloader.js"></script>
+<script src="assets/js/popUpLogin.js"></script>
 </body>
 </html>
