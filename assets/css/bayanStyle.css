@@ -1,0 +1,93 @@
+.sortable-ul {
+    list-style-type: none;
+    margin: 10px auto;
+    padding: 0;
+    width: 500px;
+}
+.sortable-ul li {
+    margin: 4px 0;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+/* Стиль для перетаскиваемого элемента. */
+.sortable-ul .ui-sortable-helper {
+    box-shadow: rgba(0, 0, 0, 0.14) 10px 10px 10px -5px;
+}
+
+.bg-yellow {
+    background: #F0DE98;
+    border: 1px solid #E9CF67;
+    border-left: 8px solid #E9CF67
+
+}
+.bg-green {
+    background: #97E482;
+    border: 1px solid #7BDC5F;
+    border-left: 8px solid #7BDC5F
+}
+
+.accordion .ui-accordion-header {
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #eee;
+    cursor: pointer;
+    outline: none;
+}
+.accordion .ui-accordion-content {
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+#tabs {
+    margin: 10px 0;
+}
+.tabs-nav {
+    display: table;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.tabs-nav li {
+    display: table-cell;
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+.tabs-nav a {
+    display: block;
+    padding: 10px 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    background: #fbfbfb;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    color: #999;
+}
+.tabs-nav li:first-child a {
+    border-radius: 5px 0 0 0;
+}
+.tabs-nav li:last-child a {
+    display: block;
+    border-right: 1px solid #ccc;
+    border-radius: 0 5px 0 0;
+}
+.tabs-nav a.active {
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    color: #000;
+}
+.tabs-items {
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    background: #fff;
+}
+.tabs-item {
+    padding: 15px;
+}

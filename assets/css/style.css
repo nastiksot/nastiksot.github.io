@@ -91,6 +91,9 @@ h2 {
 h3 {
     color: #803333;
 }
+h4 {
+    color: #9658b0;
+}
 
 .menu-categories {
     /* color of categories*/
@@ -312,7 +315,7 @@ input[type=submit]:hover {
 .contactForm {
     border-radius: 5px;
     background-color: #C4D3E8;
-    padding: 20px;
+    /*padding: 20px;*/
 }
 
 table {
@@ -336,14 +339,6 @@ tr:nth-child(even) {
 
 tr:nth-child(odd) {
     background-color: #dddddf
-}
-
-li:nth-child(even) {
-    cursor: progress;
-}
-
-li {
-    list-style-image: url(../img/icon.png);
 }
 
 .error {

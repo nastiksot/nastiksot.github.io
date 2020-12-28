@@ -68,3 +68,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
     initItems();
     scrollW.onscroll = scrollWrap;
 });
+
