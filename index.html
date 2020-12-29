@@ -5,9 +5,9 @@
     <meta name="viewport" content="max-device-width: 1200px, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Sport Rent</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/preloader.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/popUpLoginStyle.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" onload="this.media='all'; this.onload=null;"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/preloader.css" onload="this.media='all'; this.onload=null;"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/popUpLoginStyle.css" onload="this.media='all'; this.onload=null;"/>
     <link rel="shortcut icon" href="assets/img/icon.png" type="image/png">
 </head>
 
@@ -80,7 +80,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/bicycle.jpg" alt="bicycle">
+                        <img class="lazy" src="assets/img/products/bicycle.jpg" alt="bicycle" srcset="assets/img/products/bicycle.jpg 320w,
+                            assets/img/products/bicycle.jpg 480w,
+                            assets/img/products/bicycle.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>TRINX E-Bike X1E17
                             <br><span class="price">$20/day</span>
                         </figcaption>
@@ -94,7 +99,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/wetsuitOrca.jpg" alt="wetsuit">
+                        <img class="lazy" src="assets/img/products/wetsuitOrca.jpg" alt="wetsuit"srcset="assets/img/products/bicycle.jpg 320w,
+                            assets/img/products/wetsuitOrca.jpg 480w,
+                            assets/img/products/wetsuitOrca.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>Woman Wetsuit Orca TRN
                             <br><span class="price">$ 7/day</span>
                         </figcaption>
@@ -108,7 +118,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/greenBoard.jpg" alt="Board">
+                        <img class="lazy" src="assets/img/products/greenBoard.jpg" alt="Board" srcset="assets/img/products/greenBoard.jpg 320w,
+                            assets/img/products/greenBoard.jpg 480w,
+                            assets/img/products/greenBoard.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>Snowboard ROME AGENT
                             <br><span class="price">$ 19/day</span>
                         </figcaption>
@@ -122,7 +137,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/scooter.jpg" alt="scooter">
+                        <img class="lazy" src="assets/img/products/scooter.jpg" alt="scooter" srcset="assets/img/products/scooter.jpg 320w,
+                            assets/img/products/scooter.jpg 480w,
+                            assets/img/products/scooter.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>Scooter LIBERTY
                             <br><span class="price">$ 120/day</span>
                         </figcaption>
@@ -136,7 +156,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/cheaptent.jpg" alt="tent">
+                        <img class="lazy" src="assets/img/products/cheaptent.jpg" alt="tent" srcset="assets/img/products/cheaptent.jpg 320w,
+                            assets/img/products/cheaptent.jpg 480w,
+                            assets/img/products/cheaptent.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>Tent TIME ECO Mini
                             <br><span class="price">$ 5/day</span>
                         </figcaption>
@@ -150,7 +175,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/helmet.jpg" alt="helmet">
+                        <img class="lazy" src="assets/img/products/helmet.jpg" alt="helmet" srcset="assets/img/products/helmet.jpg 320w,
+                            assets/img/products/helmet.jpg 480w,
+                            assets/img/products/helmet.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>Helmet ANON
                             <br><span class="price">$ 10/day</span>
                         </figcaption>
@@ -164,7 +194,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/ski-yellow.jpg" alt="ski-yellow">
+                        <img class="lazy" src="assets/img/products/ski-yellow.jpg" alt="ski-yellow"  srcset="assets/img/products/ski-yellow.jpg 320w,
+                            assets/img/products/ski-yellow.jpg 480w,
+                            assets/img/products/ski-yellow.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>Skiing Supershape SLR2
                             <br><span class="price">$ 25/day</span>
                         </figcaption>
@@ -178,7 +213,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/diving-costume.jpg" alt="diving-costume">
+                        <img class="lazy" src="assets/img/products/diving-costume.jpg" alt="diving-costume" srcset="assets/img/products/diving-costume.jpg 320w,
+                            assets/img/products/diving-costume.jpg 480w,
+                            assets/img/products/diving-costume.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>Kit CRESSI-SUB
                             <br><span class="price">$ 30/day</span>
                         </figcaption>
@@ -192,7 +232,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/moto-costume.jpg" alt="moto-costume">
+                        <img class="lazy" src="assets/img/products/moto-costume.jpg" alt="moto-costume" srcset="assets/img/products/moto-costume.jpg 320w,
+                            assets/img/products/moto-costume.jpg 480w,
+                            assets/img/products/moto-costume.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>moto-costume Rst Race
                             <br><span class="price">$ 90/day</span>
                         </figcaption>
@@ -206,7 +251,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/sleeping-bag.jpg" alt="sleeping-bag">
+                        <img class="lazy" src="assets/img/products/sleeping-bag.jpg" alt="sleeping-bag" srcset="assets/img/products/sleeping-bag.jpg 320w,
+                            assets/img/products/sleeping-bag.jpg 480w,
+                            assets/img/products/sleeping-bag.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>Sleeping bag Mousson Polo
                             <br><span class="price">$ 12/day</span>
                         </figcaption>
@@ -220,7 +270,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/knifes.jpg" alt="knifes">
+                        <img class="lazy" src="assets/img/products/knifes.jpg" alt="knifes" srcset="assets/img/products/knifes.jpg 320w,
+                            assets/img/products/knifes.jpg 480w,
+                            assets/img/products/knifes.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>Survival kit
                             <br><b><span>$ 7/day</span></b>
                         </figcaption>
@@ -234,7 +289,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/boat.jpg" alt="boat">
+                        <img class="lazy" src="assets/img/products/boat.jpg" alt="boat" srcset="assets/img/products/boat.jpg 320w,
+                            assets/img/products/boat.jpg 480w,
+                            assets/img/products/boat.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>Boat Ladya LT-240
                             <br><b><span>$ 20/day </b></span>
                         </figcaption>
@@ -248,7 +308,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/swim-board.jpg" alt="swim-board">
+                        <img class="lazy" src="assets/img/products/swim-board.jpg" alt="swim-board" srcset="assets/img/products/swim-board.jpg 320w,
+                            assets/img/products/swim-board.jpg 480w,
+                            assets/img/products/swim-board.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>Surfboard "Shortboard"
                             <br><b><span>$ 5/day</b></span>
                         </figcaption>
@@ -262,7 +327,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/rollers.jpg" alt="rollers">
+                        <img class="lazy" src="assets/img/products/rollers.jpg" alt="rollers" srcset="assets/img/products/rollers.jpg 320w,
+                            assets/img/products/rollers.jpg 480w,
+                            assets/img/products/rollers.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>Rollers Fit 3
                             <br><b><span>$ 7/day</b></span>
                         </figcaption>
@@ -276,7 +346,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/penny-board.jpg" alt="penny-board">
+                        <img class="lazy" src="assets/img/products/penny-board.jpg" alt="penny-board" srcset="assets/img/products/penny-board.jpg 320w,
+                            assets/img/products/penny-board.jpg 480w,
+                            assets/img/products/penny-board.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>Cruiser Yamba 100
                             <br><b><span>$ 7/day</b></span>
                         </figcaption>
@@ -298,7 +373,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/fish.jpg" alt="fish">
+                        <img class="lazy" src="assets/img/products/fish.jpg" alt="fish" srcset="assets/img/products/fish.jpg 320w,
+                            assets/img/products/fish.jpg 480w,
+                            assets/img/products/fish.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>Inflatable toy Nemo
                             <br><span class="price">$1,5</span>
                         </figcaption>
@@ -311,7 +391,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/coil.jpg" alt="coil">
+                        <img class="lazy" src="assets/img/products/coil.jpg" alt="coil" srcset="assets/img/products/coil.jpg 320w,
+                            assets/img/products/coil.jpg 480w,
+                            assets/img/products/coil.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>Favorite Blue Bird Coil
                             <br><span class="price">$ 13</span>
                         </figcaption>
@@ -324,7 +409,12 @@
             <div class="product">
                 <a href="#">
                     <figure>
-                        <img src="assets/img/products/gloves.jpg" alt="gloves">
+                        <img class="lazy" src="assets/img/products/gloves.jpg" alt="gloves"  srcset="assets/img/products/coil.jpg 320w,
+                            assets/img/products/gloves.jpg 480w,
+                            assets/img/products/gloves.jpg 800w "
+                             sizes="(max-width: 320px) 200px,
+                        (max-width: 480px) 320px,
+                        800px"/>
                         <figcaption>Fitness gloves Tavialo
                             <br><span class="price">$ 3</span>
                         </figcaption>
@@ -356,7 +446,14 @@
     </div>
 </footer>
 <!-- footer end -->
-<script src="assets/js/preloader.js"></script>
-<script src="assets/js/popUpLogin.js"></script>
+<script src="assets/js/preloader.js" defer></script>
+<script src="assets/js/popUpLogin.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.0/dist/lazyload.min.js" defer></script>
+<script>
+    let lezyLoadInstance = new LazyLoad({
+        elements_selector: ".lazy"
+    });
+</script>
+
 </body>
 </html>
